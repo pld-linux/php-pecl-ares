@@ -6,12 +6,12 @@
 Summary:	%{_modname} - asynchronous resolver
 Summary(pl):	%{_modname} - asynchroniczny resolver
 Name:		php-pecl-%{_modname}
-Version:	0.5.0
+Version:	0.6.0
 Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	fa61755c1a4985cabc5a3526d50b49b1
+# Source0-md5:	9cc3a6713abe621a391e014c10b923d2
 URL:		http://pecl.php.net/package/ares/
 BuildRequires:	c-ares-devel
 BuildRequires:	php-devel >= 3:5.0.0
