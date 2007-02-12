@@ -1,7 +1,7 @@
 %define		_modname	ares
 %define		_status		beta
 Summary:	%{_modname} - asynchronous resolver
-Summary(pl.UTF-8):   %{_modname} - asynchroniczny resolver
+Summary(pl.UTF-8):	%{_modname} - asynchroniczny resolver
 Name:		php-pecl-%{_modname}
 Version:	0.6.0
 Release:	2
