@@ -1,7 +1,7 @@
 %define		_modname	ares
 %define		_status		beta
 Summary:	%{_modname} - asynchronous resolver
-Summary(pl):	%{_modname} - asynchroniczny resolver
+Summary(pl.UTF-8):   %{_modname} - asynchroniczny resolver
 Name:		php-pecl-%{_modname}
 Version:	0.6.0
 Release:	2
@@ -22,8 +22,8 @@ Binding for the ares (MIT) or c-ares (CURL) library.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-Dowi±zania do biblioteki ares (MIT) lub c-ares (CURL).
+%description -l pl.UTF-8
+DowiÄ…zania do biblioteki ares (MIT) lub c-ares (CURL).
 
 To rozszerzenie ma w PECL status: %{_status}.
 
