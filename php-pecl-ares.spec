@@ -5,7 +5,7 @@ Summary(pl.UTF-8):	%{_modname} - asynchroniczny resolver
 Name:		php-pecl-%{_modname}
 Version:	0.6.0
 Release:	2
-License:	BSD
+License:	BSD, revised
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	9cc3a6713abe621a391e014c10b923d2
