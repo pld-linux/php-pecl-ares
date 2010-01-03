@@ -3,12 +3,13 @@
 Summary:	%{_modname} - asynchronous resolver
 Summary(pl.UTF-8):	%{_modname} - asynchroniczny resolver
 Name:		php-pecl-%{_modname}
-Version:	0.6.0
-Release:	2
+Version:	0.7.0
+Release:	1
 License:	BSD, revised
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	9cc3a6713abe621a391e014c10b923d2
+# Source0-md5:	24ec2e3089246bab68d01af9c93a1dc7
+Patch0:		%{name}-tsrm.patch
 URL:		http://pecl.php.net/package/ares/
 BuildRequires:	c-ares-devel
 BuildRequires:	php-devel >= 3:5.0.0
@@ -29,6 +30,7 @@ To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
+%patch0 -p1
 
 %build
 cd %{_modname}-%{version}
