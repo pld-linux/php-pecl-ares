@@ -5,19 +5,19 @@ Summary:	%{modname} - asynchronous resolver
 Summary(pl.UTF-8):	%{modname} - asynchroniczny resolver
 Name:		%{php_name}-pecl-%{modname}
 Version:	0.7.0
-Release:	7
+Release:	8
 License:	BSD, revised
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 # Source0-md5:	24ec2e3089246bab68d01af9c93a1dc7
 Patch0:		php-pecl-%{modname}-tsrm.patch
 URL:		http://pecl.php.net/package/ares/
-BuildRequires:	%{php_name}-devel >= 3:5.0.0
+BuildRequires:	%{php_name}-devel >= 3:5.0.4
 BuildRequires:	c-ares-devel
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
-Requires:	php(core) >= 5.0.4
 Provides:	php(%{modname}) = %{version}
+Obsoletes:	php-pecl-ares < 0.7.0-7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
